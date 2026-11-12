@@ -206,7 +206,7 @@ const businessSchema = {
   url: biz.url,
   telephone: biz.phoneHref,
   email: biz.email,
-  image: biz.url + '/img/hero-placeholder.svg',
+  image: biz.url + '/img/hero.jpg',
   logo: biz.url + '/img/logo/malchow-mark-color.svg',
   priceRange: '$$',
   address: { '@type': 'PostalAddress', addressLocality: biz.city, addressRegion: biz.state, postalCode: biz.zip, addressCountry: 'US' },
@@ -225,7 +225,7 @@ write('/', layout({
   schema: businessSchema,
   body: `
 <section class="hero">
-  <div class="hero-pan"><img src="/img/hero-placeholder.svg" alt="" fetchpriority="high"></div>
+  <div class="hero-pan"><img src="/img/hero.jpg" alt="An arborist in a helmet and harness roped into a big cottonwood on a Superior street at sunset" width="1344" height="672" fetchpriority="high"></div>
   <div class="wrap">
     <p class="eyebrow" style="color:#ffd9a8">Tree service in ${biz.city} and the Boulder County area</p>
     <h1>Big trees, done right, yard left clean.</h1>

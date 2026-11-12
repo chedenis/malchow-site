@@ -69,7 +69,7 @@ p { margin: 0 0 1em; }
 /* Hero with scroll-linked horizontal pan */
 .hero { position: relative; overflow: hidden; color: #fff; min-height: min(86vh, 760px); display: flex; align-items: center; background: #6f7a5e; }
 .hero-pan { position: absolute; inset: 0; overflow: hidden; }
-.hero-pan img { position: absolute; top: 0; left: 0; height: 100%; width: auto; max-width: none; will-change: transform; }
+.hero-pan img { position: absolute; top: 0; left: 0; height: 100%; width: auto; min-width: 100%; max-width: none; object-fit: cover; object-position: 50% 40%; will-change: transform; }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14, 26, 18, 0.78) 0%, rgba(14, 26, 18, 0.5) 45%, rgba(14, 26, 18, 0) 75%); }
 .hero .wrap { position: relative; z-index: 2; width: 100%; padding-top: 56px; padding-bottom: 56px; }
 .hero h1 { color: #fff; max-width: 13em; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.3); }
