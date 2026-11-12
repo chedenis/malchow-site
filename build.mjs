@@ -225,7 +225,7 @@ write('/', layout({
   schema: businessSchema,
   body: `
 <section class="hero">
-  <div class="hero-pan"><img src="/img/hero.jpg" alt="An arborist in a helmet and harness roped into a big cottonwood on a Superior street at sunset" width="1344" height="672" fetchpriority="high"></div>
+  <div class="hero-pan"><img src="/img/hero.jpg" alt="An arborist in a helmet and harness roped into a big cottonwood on a Superior street at sunset" width="1648" height="736" fetchpriority="high"></div>
   <div class="wrap">
     <p class="eyebrow" style="color:#ffd9a8">Tree service in ${biz.city} and the Boulder County area</p>
     <h1>Big trees, done right, yard left clean.</h1>
