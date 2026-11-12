@@ -1,0 +1,45 @@
+/* Malchow Arborist Service — brand tokens
+   Fonts (Google Fonts):
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@87..100,600..800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+*/
+:root {
+  /* Core palette */
+  --mt-spruce:  #1E3B2F; /* primary. Headlines, logo, truck doors, dark bands */
+  --mt-needle:  #4A7556; /* secondary green. Large text and graphics only (4.4:1 on sawdust) */
+  --mt-sawdust: #F2EADB; /* light ground. Page backgrounds, reversed logo */
+  --mt-hivis:   #E8622A; /* accent, safety orange. Buttons, the pith dot, storm banner. Never body text */
+  --mt-bark:    #5B4331; /* warm brown. Sublines, captions, small labels */
+  --mt-char:    #1C1F1D; /* near-black. Body text, one-color logo */
+  --mt-white:   #FFFFFF;
+
+  /* Roles */
+  --mt-bg: var(--mt-sawdust);
+  --mt-fg: var(--mt-char);
+  --mt-heading: var(--mt-spruce);
+  --mt-cta-bg: var(--mt-hivis);
+  --mt-cta-fg: var(--mt-char);   /* 4.9:1. White on orange is only 3.4:1, keep it for 24px+ */
+  --mt-band-bg: var(--mt-spruce);
+  --mt-band-fg: var(--mt-sawdust);
+
+  /* Type */
+  --mt-font-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif; /* 800, font-stretch 87.5%, caps for short headlines */
+  --mt-font-body: "Public Sans", "Segoe UI", Roboto, Arial, sans-serif;               /* 400 / 600 / 700 */
+  --mt-display-stretch: 87.5%;
+  --mt-label-tracking: 0.14em; /* uppercase labels like ARBORIST SERVICE */
+
+  --mt-size-xs: 0.8125rem;
+  --mt-size-sm: 0.9375rem;
+  --mt-size-md: 1.0625rem; /* body */
+  --mt-size-lg: 1.375rem;
+  --mt-size-xl: 2rem;
+  --mt-size-2xl: 2.75rem;
+  --mt-size-3xl: 3.75rem;
+
+  /* Shape and space */
+  --mt-radius-sm: 4px;
+  --mt-radius-md: 8px;
+  --mt-space-1: 4px; --mt-space-2: 8px; --mt-space-3: 12px; --mt-space-4: 16px;
+  --mt-space-6: 24px; --mt-space-8: 32px; --mt-space-12: 48px; --mt-space-16: 64px;
+
+  /* Final logo: Gambel Oak (brand-kit/logo/). Clear space = half the leaf width. Min sizes: mark 24px / 0.4in, horizontal lockup 140px / 1.5in wide */
+}

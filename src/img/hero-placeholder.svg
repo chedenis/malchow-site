@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cc3d9"/>
+      <stop offset="0.55" stop-color="#e9d9b8"/>
+      <stop offset="1" stop-color="#f1c88e"/>
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d8f4e"/>
+      <stop offset="1" stop-color="#4f6435"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.78" cy="0.42" r="0.35">
+      <stop offset="0" stop-color="#fff3d6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff3d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="3600" height="1200" fill="url(#sky)"/>
+  <rect width="3600" height="1200" fill="url(#sun)"/>
+  <!-- foothills and Flatirons-style slabs, far back -->
+  <path d="M0 640 L300 600 L700 610 L1100 560 L1500 590 L1800 520 L2050 470 L2150 380 L2230 470 L2300 360 L2390 470 L2460 340 L2560 480 L2700 430 L2900 500 L3200 470 L3600 520 L3600 760 L0 760Z" fill="#8a8f8a" opacity="0.55"/>
+  <path d="M0 700 L400 660 L900 690 L1400 640 L1900 670 L2400 620 L2900 660 L3600 630 L3600 780 L0 780Z" fill="#6f7a5e" opacity="0.7"/>
+  <!-- distant tree line -->
+  <g fill="#4d5d39" opacity="0.85">
+    <ellipse cx="200" cy="740" rx="140" ry="70"/><ellipse cx="420" cy="730" rx="120" ry="80"/>
+    <ellipse cx="1500" cy="735" rx="160" ry="75"/><ellipse cx="1750" cy="725" rx="130" ry="85"/>
+    <ellipse cx="2600" cy="720" rx="150" ry="90"/><ellipse cx="3350" cy="730" rx="170" ry="80"/>
+  </g>
+  <!-- houses -->
+  <g>
+    <path d="M1900 760 L2050 660 L2200 760Z" fill="#6b4f3a"/><rect x="1920" y="760" width="260" height="140" fill="#d9cbb0"/>
+    <rect x="2010" y="810" width="60" height="90" fill="#5b4636"/>
+    <path d="M900 770 L1020 690 L1140 770Z" fill="#5d4a3c"/><rect x="915" y="770" width="210" height="120" fill="#cfc2a6"/>
+  </g>
+  <!-- lawn and street -->
+  <rect y="860" width="3600" height="340" fill="url(#lawn)"/>
+  <rect y="1080" width="3600" height="120" fill="#5d5a54"/>
+  <rect y="1072" width="3600" height="10" fill="#bdb6a8"/>
+  <!-- big front-yard tree, right of frame -->
+  <g>
+    <path d="M2860 1080 C2870 950 2850 880 2800 800 L2860 790 C2900 860 2920 900 2930 960 C2950 880 2990 820 3060 770 L3100 800 C3020 860 2980 950 2990 1080Z" fill="#4a3628"/>
+    <g fill="#3f5a2e">
+      <circle cx="2700" cy="560" r="210"/><circle cx="2950" cy="430" r="260"/><circle cx="3210" cy="560" r="220"/>
+      <circle cx="2830" cy="720" r="190"/><circle cx="3090" cy="720" r="200"/><circle cx="2960" cy="640" r="230"/>
+    </g>
+    <g fill="#57753a" opacity="0.8">
+      <circle cx="2880" cy="380" r="140"/><circle cx="3140" cy="500" r="130"/><circle cx="2700" cy="520" r="110"/>
+    </g>
+  </g>
+  <!-- placeholder note -->
+  <text x="3560" y="1160" text-anchor="end" font-family="sans-serif" font-size="34" fill="#ffffff" opacity="0.8">Placeholder art. Swap for the 3:1 hero photo.</text>
+</svg>

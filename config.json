@@ -1,0 +1,14 @@
+{
+  "stormMode": false,
+  "heroOffer": "FIRSTCUT",
+  "quoteLinkBase": "",
+  "offers": {
+    "FIRSTCUT": { "on": true },
+    "FREESTUMP": { "on": false },
+    "BRANCH": { "on": true },
+    "DORMANT": { "on": true },
+    "STORMPREP": { "on": true },
+    "HOMETOWN": { "on": true },
+    "SAMESTREET": { "on": true }
+  }
+}

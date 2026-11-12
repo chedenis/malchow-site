@@ -1,0 +1,21 @@
+/* Maps the site's variables onto the brand kit (brand-tokens.css, loaded first).
+   To change colors or fonts, edit brand-tokens.css, not this file. */
+:root {
+  --c-forest: var(--mt-spruce);
+  --c-forest-2: var(--mt-needle);
+  --c-bark: var(--mt-bark);
+  --c-sawdust: var(--mt-sawdust);
+  --c-paper: #fbf7ef;
+  --c-ink: var(--mt-char);
+  --c-muted: #55594f;
+  --c-line: #ddd2bd;
+  --c-safety: var(--mt-hivis);
+  --c-safety-dark: #b9481a;
+  --c-cta-fg: var(--mt-cta-fg);
+  --c-storm: #1a2c3d;
+  --font-display: var(--mt-font-display);
+  --font-body: var(--mt-font-body);
+  --radius: var(--mt-radius-md);
+  --shadow: 0 6px 24px rgba(20, 30, 20, 0.12);
+  --max: 1160px;
+}
