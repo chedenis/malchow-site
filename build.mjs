@@ -317,7 +317,7 @@ write('/', layout({
     <div class="card">
       <p class="eyebrow">Seasonal Care Plan</p>
       <h3>A yearly checkup and first in line after storms</h3>
-      <p>One walk-through a year from an arborist, priority after storms, and ${ph('[10]%')} off any work that year. ${ph('$[PRICE]')} a year.</p>
+      <p>A yearly walk-through from Forest or Ryan, first in line after storms, and ${ph('[10]%')} off any work that year. ${ph('$[PRICE]')} a year.</p>
       <a class="more" href="/plan">See the plan</a>
     </div>
   </div>
@@ -480,7 +480,7 @@ write('/plan', layout({
     <p style="font-size:2rem;font-family:var(--font-display);font-weight:800;color:var(--c-forest);margin-bottom:4px">${ph('$[PRICE]')} <span style="font-size:1rem;color:var(--c-muted)">per year</span></p>
     <h2 style="margin-top:20px">What you get</h2>
     <ul class="checklist">
-      <li><b>A yearly walk-through.</b> An arborist looks at every tree on your lot and gives you a short written list: what’s fine, what to watch, what needs work.</li>
+      <li><b>A yearly walk-through.</b> Forest or Ryan looks at every tree on your lot, including an emerald ash borer check on any ash, and gives you a short written list: what’s fine, what to watch, what needs work.</li>
       <li><b>First in line after storms.</b> Plan members get scheduled before new calls. Anything that’s a danger to people still comes first, for everyone.</li>
       <li><b>${ph('[10]%')} off any work that year.</b> Pruning, removal, stump grinding, ash treatment.</li>
       <li><b>A reminder when it’s time.</b> We’ll text you before dormant pruning season and before spring storm season.</li>
